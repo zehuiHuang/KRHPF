@@ -1,4 +1,4 @@
-package com.cefa.edu.config;
+package kafka.demo;
 
 //import com.databps.bigdaf.admin.manager.HomePageManager;
 //import com.databps.bigdaf.admin.vo.HomePageVo;
