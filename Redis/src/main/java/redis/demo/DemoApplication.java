@@ -2,7 +2,7 @@ package redis.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+//redis + zookeeper
 @SpringBootApplication
 public class DemoApplication {
 
