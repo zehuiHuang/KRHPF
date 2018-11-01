@@ -7,6 +7,6 @@ package redis.demo.rpc.v1;
 public class HServiceImpl implements HService {
     @Override
     public String testH() {
-        return "HServiceImpl------------------";
+        return "调用了HServiceImpl------------------";
     }
 }
