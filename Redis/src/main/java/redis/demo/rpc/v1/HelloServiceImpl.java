@@ -1,4 +1,4 @@
-package redis.demo.rpc;
+package redis.demo.rpc.v1;
 
 /**
  * @author huangzehui
@@ -14,6 +14,11 @@ public class HelloServiceImpl implements HelloService {
     @Override
     public String hello(String name) {
         return "Hello," + name;
+    }
+
+    @Override
+    public String test(String h) {
+        return "hzh";
     }
 
 }

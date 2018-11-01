@@ -1,4 +1,4 @@
-package redis.demo.rpc;
+package redis.demo.rpc.v1;
 
 /**
  * @author huangzehui
@@ -9,5 +9,7 @@ public interface  HelloService {
     String hello();
 
     String hello(String name);
+
+    String test(String h);
 
 }
