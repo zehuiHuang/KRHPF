@@ -109,7 +109,6 @@ public class RpcFramework {
                             ObjectOutputStream output = new ObjectOutputStream(socket.getOutputStream());
 
                             try {
-                                System.out.println("interfaceClass.getName():"+interfaceClass.getName());
                                 output.writeUTF(interfaceClass.getName());
                                 output.writeUTF(method.getName());
                                 output.writeObject(method.getParameterTypes());
